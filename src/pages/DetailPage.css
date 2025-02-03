@@ -1,0 +1,16 @@
+.detail-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .detail-page h1 {
+    color: #444;
+  }
+  
+  .detail-page img {
+    max-width: 300px;
+    margin: 20px 0;
+  }
+  

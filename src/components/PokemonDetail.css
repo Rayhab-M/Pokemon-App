@@ -1,0 +1,58 @@
+
+.pokemon-detail {
+  text-align: center;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 600px;
+  margin: auto;
+}
+
+.pokemon-detail h1 {
+  font-size: 52px; /* Increase Pokémon name size */
+  font-weight: bold;
+}
+
+.pokemon-detail p {
+  font-size: 25px; /* Increase general details size */
+}
+
+.pokemon-detail ul {
+  list-style: none;
+  padding: 0;
+}
+
+.pokemon-detail li {
+  font-size: 25px; /* Increase stats font size */
+  /* font-weight: bold; */
+  margin: 5px 0;
+}
+
+.pokemon-detail h2 {
+  font-size: 52px; /* Increase Pokémon name size */
+  font-weight: bold;
+}
+
+
+.pokemon-detail img {
+  width: 300px;
+  height: 200px;
+} 
+
+
+/* 🔙 Back button style */
+.back-button {
+  background-color: #ff6b6b;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: background 0.3s;
+}
+
+.back-button:hover {
+  background-color: #ff4f4f;
+}

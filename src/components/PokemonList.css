@@ -1,0 +1,79 @@
+/* .pokedex-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.pokemon-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 10px;
+}
+
+.pokemon-card {
+  background: rgb(205, 227, 236);
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.pokemon-card img {
+  width: 80px;
+  height: 80px;
+}
+ */
+
+
+/* 🔍 Style the search bar */
+.search-bar {
+  width: 80%;
+  max-width: 400px;
+  padding: 12px;
+  font-size: 18px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  outline: none;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Change border color on focus */
+.search-bar:focus {
+  border-color: #4caf50;
+}
+
+/* Pokémon list styles */
+.pokemon-list {
+  text-align: center;
+  padding: 20px;
+}
+
+.pokemon-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  justify-content: center;
+}
+
+.pokemon-card {
+  text-decoration: none;
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.pokemon-card:hover {
+  transform: scale(1.05);
+}
+
+.pokedex-container h1 {
+  text-align: center;
+  font-size: 52px;
+}
